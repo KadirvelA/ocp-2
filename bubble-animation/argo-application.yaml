@@ -10,11 +10,9 @@ spec:
   project: default 
   source: 
     path: bubble-animation/application-mainfest
-    repoURL: https://github.com/ksingh7/argocd-openshift
+    repoURL: https://github.com/KadirvelA/ocp-2.git
     targetRevision: main
   syncPolicy: 
     automated:
       prune: true
       selfHeal: false
-    syncOptions:
-    - CreateNamespace=true

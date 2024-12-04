@@ -2,10 +2,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    app: bubble-animation
   name: bubble-animation
-  namespace: argocd
+
 spec:
   replicas: 1
   selector:
